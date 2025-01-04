@@ -35,6 +35,13 @@ src/main/
 │   ├── service/         # Business logic layer
 │   └── utils/           # Utility classes
 └── resources/           # Application properties and templates
+    ├── static/          # Static web assets
+    │   ├── bootstrap/   # Bootstrap framework files
+    │   └── script/      # JavaScript files
+    └── templates/       # Thymeleaf templates
+        ├── error/       # Error page templates
+        ├── fragments/   # Reusable template fragments
+        └── main-templates/ # Main application templates
 ```
 
 #### Package Roles
@@ -47,6 +54,21 @@ src/main/
 - `repository`: JPA repositories for database operations
 - `service`: Business logic implementation and transaction management
 - `utils`: Helper classes and utility functions used across the application
+- `resources/static`: Contains static web assets
+  - `bootstrap`: Bootstrap framework files for responsive layout and styling
+  - `script`: JavaScript files for client-side functionality
+- `resources/templates`: Contains Thymeleaf template files
+  - `error`: Error page templates for different HTTP error codes
+  - `fragments`: Reusable template fragments for common page elements
+  - `main-templates`: Core application page templates
+- `resources/static`: Contains static web assets
+  - `css`: Stylesheet files for the application's visual styling
+  - `img`: Image assets used throughout the application
+  - `js`: JavaScript files for client-side functionality
+- `resources/templates`: Contains Thymeleaf template files
+  - `article`: Templates for article-related views (create, edit, list, view)
+  - `layout`: Common layout templates and reusable fragments
+  - `user`: Templates for user-related views (login, registration, profile)
 
 ### Installation
 
