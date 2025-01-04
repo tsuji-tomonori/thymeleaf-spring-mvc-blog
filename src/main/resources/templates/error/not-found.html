@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en"
-      xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head th:replace="~{fragments/common :: head (~{::title})}">
     <title>Not Found</title>
 </head>
-<body class="bg-light">
-<div th:replace="~{fragments/common :: header (#{error.page.header.heading})}"></div>
 
-<div id="content" class="container" style="padding-top: 160px; padding-bottom: 66px;">
-    <div class="row row-cols-1">
-        <div class="p-2 bg-white border rounded-1">
-            <h1 th:text="#{${message}} + ' ' + ${id} "></h1>
+<body class="bg-light">
+    <div th:replace="~{fragments/common :: header (#{error.page.header.heading})}"></div>
+
+    <div id="content" class="container" style="padding-top: 160px; padding-bottom: 66px;">
+        <div class="row row-cols-1">
+            <div class="p-2 bg-white border rounded-1">
+                <h1 th:text="#{${message}} + ' ' + ${id} "></h1>
+            </div>
         </div>
     </div>
-</div>
 
-<div th:replace="~{fragments/common :: footer}"></div>
+    <div th:replace="~{fragments/common :: footer}"></div>
 </body>
 <script type="text/javascript">
     var resizeElement = document.getElementById("header");
@@ -27,4 +28,5 @@
     addResizeListener(resizeElement, resizeCallback);
     // removeResizeListener(resizeElement, resizeCallback);
 </script>
+
 </html>
