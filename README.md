@@ -25,22 +25,22 @@ Thymeleaf Spring Boot Gradle project for demonstration and educational purposes.
 ```
 src/main/
 ├── java/lt/codeacademy/blog/
-│   ├── advice/          # Global exception handlers
-│   ├── config/          # Application configuration classes
-│   ├── controller/      # MVC controllers handling HTTP requests
-│   ├── dto/             # Data Transfer Objects
-│   ├── entity/          # JPA entities
-│   ├── exception/       # Custom exceptions
-│   ├── repository/      # Data access layer interfaces
-│   ├── service/         # Business logic layer
-│   └── utils/           # Utility classes
-└── resources/           # Application properties and templates
-    ├── static/          # Static web assets
-    │   ├── bootstrap/   # Bootstrap framework files
-    │   └── script/      # JavaScript files
-    └── templates/       # Thymeleaf templates
-        ├── error/       # Error page templates
-        ├── fragments/   # Reusable template fragments
+│   ├── advice/             # Global exception handlers
+│   ├── config/             # Application configuration classes
+│   ├── controller/         # MVC controllers handling HTTP requests
+│   ├── dto/                # Data Transfer Objects
+│   ├── entity/             # JPA entities
+│   ├── exception/          # Custom exceptions
+│   ├── repository/         # Data access layer interfaces
+│   ├── service/            # Business logic layer
+│   └── utils/              # Utility classes
+└── resources/              # Application properties and templates
+    ├── static/             # Static web assets
+    │   ├── bootstrap/      # Bootstrap framework files
+    │   └── script/         # JavaScript files
+    └── templates/          # Thymeleaf templates
+        ├── error/          # Error page templates
+        ├── fragments/      # Reusable template fragments
         └── main-templates/ # Main application templates
 ```
 
