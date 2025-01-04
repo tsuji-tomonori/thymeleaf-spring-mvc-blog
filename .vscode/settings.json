@@ -108,6 +108,13 @@
     "java.checkstyle.version": "10.21.1",
     // AWS
     "aws.telemetry": false, // テレメトリを送信しない
+    // 環境設定
+    "remote.portsAttributes": {
+        "8080": {
+            "label": "MyApp",
+            "onAutoForward": "openBrowser",
+        },
+    },
     // カスタマイズ設定
     "workbench.colorTheme": "Default Dark Modern", // 配色テーマ
     "workbench.colorCustomizations": {
