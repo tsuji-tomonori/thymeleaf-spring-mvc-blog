@@ -234,4 +234,5 @@
             "backgroundColour": "#282c34" // ファイルツリーの背景色
         },
     },
+    "amazonQ.telemetry": false,
 }
